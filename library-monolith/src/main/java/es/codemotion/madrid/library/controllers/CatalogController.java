@@ -39,5 +39,6 @@ public class CatalogController {
         book.setAvailable(false);
         bookRepository.save(book);
         return "redirect:/catalog";
+        
     }
 }
